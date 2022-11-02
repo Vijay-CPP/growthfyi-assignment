@@ -1,0 +1,25 @@
+@media (max-width: 700px) {
+
+  .title {
+    margin: 5vh auto;
+    font-size: 2.5rem;
+  }
+
+  .rating-img {
+    width: 90vw;
+  }
+
+  .feedback-form {
+    width: 75vw;
+}
+
+#feedback-text {
+    width: 75vw;
+    height: 15vh;
+    margin-top: 5px;
+  }
+
+  .fb-btn {
+    width: 75vw;
+  }
+}

@@ -1,0 +1,75 @@
+body {
+  background-color: #542ccb;
+}
+
+.container-div {
+  text-align: center;
+}
+
+.title {
+  margin: 2%;
+  color: #bba3ff;
+}
+
+.rating-img {
+  width: 22vw;
+  margin: 20px;
+}
+
+.feedback-form {
+  width: fit-content;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.feedback-form > label {
+  color: aliceblue;
+}
+
+#feedback-text {
+  width: 25vw;
+  height: 8vw;
+  margin-bottom: 10px;
+  background-color: #bba3ff;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.fb-btn {
+  border-radius: 5px;
+  font-family: Arial;
+  color: #542ccb;
+  font-size: 20px;
+  padding: 10px;
+  font-weight: bold;
+  background: #ffd15b;
+  width: 25vw;
+  border: none;
+}
+
+@media (min-width:1400px){
+    title {
+        margin: 6vh auto;
+        font-size: 3rem;
+      }
+    
+      .rating-img {
+        width: 25vw;
+      }
+    
+      .feedback-form {
+        width: 30vw;
+    }
+    
+    #feedback-text {
+        width: 30vw;
+        height: 15vh;
+        margin-top: 5px;
+      }
+    
+      .fb-btn {
+        width: 30vw;
+      }
+}
