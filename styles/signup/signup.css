@@ -1,0 +1,144 @@
+body{
+    background-color: #572dce;
+}
+
+.heading{
+    color: #bba3ff;
+    text-align: center;
+    margin: 2%;
+}
+
+.signup-form{
+    background-color: #724fd6;
+    width: 30vw;
+    padding: 2vw;
+    margin: 2% auto;
+}
+
+input{
+    background-color: #957be0;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    width: 26vw;
+}
+
+input:focus{
+    background-color: #957be0;
+}
+
+select{
+    background-color: #957be0;
+    outline: none;
+    border: none; 
+    color: #c3c9ff;
+    border-radius: 5px;
+    width: 26vw;
+    height: 8vh;
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 5px;
+}
+
+label{
+    color: #c3c9ff;
+    margin-bottom: 5px;
+}
+
+input{
+    color: white;
+    margin-bottom: 5%;
+    height: 7vh;
+}
+
+hr{
+    color: white;
+    border: 2px dashed white;
+    width: 30%;
+    margin: 5% auto;
+}
+
+button{
+    border-radius: 5px;
+    font-family: Arial;
+    color: #542ccb;
+    font-size: 20px;
+    font-weight: bold;
+    background: #ffd15b;
+    width: 26vw;
+    border: none;
+    height: 8vh;
+    margin-top: 5%;
+}
+
+@media (min-width:1400px) {
+    .heading{
+        color: #bba3ff;
+        text-align: center;
+        margin: 2%;
+    }
+    
+    .signup-form{
+        background-color: #724fd6;
+        width: 30vw;
+        padding: 2vw;
+        margin: 2% auto;
+    }
+    
+    input{
+        background-color: #957be0;
+        outline: none;
+        border: none;
+        border-radius: 5px;
+        width: 26vw;
+    }
+    
+    input:focus{
+        background-color: #957be0;
+    }
+    
+    select{
+        background-color: #957be0;
+        outline: none;
+        border: none; 
+        color: #c3c9ff;
+        border-radius: 5px;
+        width: 26vw;
+        height: 6vh;
+        font-size: 1.5rem;
+        font-weight: bold;
+        padding: 10px;
+    }
+    
+    label{
+        color: #c3c9ff;
+        margin-bottom: 5px;
+    }
+    
+    input{
+        color: white;
+        margin-bottom: 5%;
+        height: 5vh;
+    }
+    
+    hr{
+        color: white;
+        border: 3px dashed white;
+        width: 30%;
+        margin: 5% auto;
+    }
+    
+    button{
+        border-radius: 5px;
+        font-family: Arial;
+        color: #542ccb;
+        font-size: 25px;
+        font-weight: bold;
+        background: #ffd15b;
+        width: 26vw;
+        border: none;
+        height: 6vh;
+        margin-top: 5%;
+    }
+    
+}
